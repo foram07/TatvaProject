@@ -3,6 +3,8 @@ package com.example.tatvaproject.di
 import android.app.Application
 import android.content.Context
 import androidx.navigation.NavController
+import androidx.navigation.findNavController
+import com.example.tatvaproject.R
 import com.example.tatvaproject.ui.activity.MainActivity
 import dagger.Module
 import dagger.Provides
