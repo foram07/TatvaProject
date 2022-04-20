@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="dashboardViewModel"
+            type="com.example.tatvaproject.ui.fragment.dashboard.DashboardViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".ui.fragment.dashboard.DashboardFragment">
+
+        <Button
+            android:id="@+id/btn_task1"
+            style="@style/text_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_20"
+            android:text="Task 1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_task2"
+            style="@style/text_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="Task 2"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</layout>
